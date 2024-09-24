@@ -35,7 +35,7 @@ export default function Component() {
                   alt="Varnit's Photo"
                   layout="fill"
                   objectFit="cover"
-                  className="rounded-full border-8 border-yellow-400 animate"
+                  className="rounded-full animate"
                 />
               </div>
               <div className="flex justify-center space-x-4 mt-4">
@@ -61,7 +61,7 @@ export default function Component() {
               <ul className="space-y-4 text-lg">
                 <li className="flex items-center">
                   <span className="text-4xl mr-2">🎉</span>
-                  <span>I'll organize super fun class events</span>
+                  <span  className="text-md mr-2">I'll organize super fun class events</span>
                 </li>
                 <li className="flex items-center">
                   <span className="text-4xl mr-2">🗣️</span>

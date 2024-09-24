@@ -23,7 +23,7 @@ export default function Component() {
     <div className="min-h-screen bg-gradient-to-b from-purple-400 via-pink-500 to-red-500 p-4 sm:p-8 font-sans">
       <div className="max-w-4xl mx-auto bg-white rounded-3xl overflow-hidden shadow-2xl transform rotate-1 hover:rotate-0 transition-transform duration-300">
         <header className="bg-yellow-400 text-purple-800 text-center py-6 px-4 rounded-t-3xl">
-        <div className="absolute left-4 top-20 transform -translate-y-1/2">
+        {/* <div className="absolute left-4 top-20 transform -translate-y-1/2">
         <Image
                   src={QRCode.src+"?height=30&width=30"}
                   alt="QR Code"
@@ -31,7 +31,7 @@ export default function Component() {
                   height={100}
                   className="circle-full animate"
                 />
-          </div>
+          </div> */}
           <h1 className="text-4xl sm:text-5xl font-bold mb-2 animate-bounce">Vote for Varnit!</h1>
           <p className="text-xl sm:text-2xl">
           Your Awesome Voice for 3-3 Home Room
